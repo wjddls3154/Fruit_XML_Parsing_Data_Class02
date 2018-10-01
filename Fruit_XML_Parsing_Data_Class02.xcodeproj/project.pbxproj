@@ -12,6 +12,8 @@
 		1473F8172161F4670097A210 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1473F8152161F4670097A210 /* Main.storyboard */; };
 		1473F8192161F4670097A210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1473F8182161F4670097A210 /* Assets.xcassets */; };
 		1473F81C2161F4670097A210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1473F81A2161F4670097A210 /* LaunchScreen.storyboard */; };
+		1473F8242161F4B00097A210 /* Fruit.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1473F8232161F4B00097A210 /* Fruit.xml */; };
+		1473F8262161F4EF0097A210 /* FruitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1473F8252161F4EF0097A210 /* FruitData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		1473F8182161F4670097A210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1473F81B2161F4670097A210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1473F81D2161F4670097A210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1473F8232161F4B00097A210 /* Fruit.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Fruit.xml; sourceTree = "<group>"; };
+		1473F8252161F4EF0097A210 /* FruitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		1473F8102161F4670097A210 /* Fruit_XML_Parsing_Data_Class02 */ = {
 			isa = PBXGroup;
 			children = (
+				1473F8252161F4EF0097A210 /* FruitData.swift */,
+				1473F8232161F4B00097A210 /* Fruit.xml */,
 				1473F8112161F4670097A210 /* AppDelegate.swift */,
 				1473F8132161F4670097A210 /* ViewController.swift */,
 				1473F8152161F4670097A210 /* Main.storyboard */,
@@ -125,6 +131,7 @@
 			files = (
 				1473F81C2161F4670097A210 /* LaunchScreen.storyboard in Resources */,
 				1473F8192161F4670097A210 /* Assets.xcassets in Resources */,
+				1473F8242161F4B00097A210 /* Fruit.xml in Resources */,
 				1473F8172161F4670097A210 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +145,7 @@
 			files = (
 				1473F8142161F4670097A210 /* ViewController.swift in Sources */,
 				1473F8122161F4670097A210 /* AppDelegate.swift in Sources */,
+				1473F8262161F4EF0097A210 /* FruitData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
